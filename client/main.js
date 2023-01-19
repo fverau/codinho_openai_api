@@ -73,7 +73,7 @@ const handleSubmit = async (event) => {
 
   // fetch la data del server
 
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://codinho-ia.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-type': 'application/json'
